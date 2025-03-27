@@ -4,7 +4,7 @@ import Logo from "../assets/home_button.png";
 
 export default function NavBar() {
   return (
-    <nav className="bg-chostoBrown text-white py-2 px-4 flex justify-between items-center">
+    <nav className="bg-chostoBrown text-white pt-0 pb-0 pl-0 px-4 py-1 flex justify-between items-center">
       <Link to="/">
         <img
           src={Logo}
